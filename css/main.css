@@ -1,9 +1,28 @@
 html {
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
   background-color: #eee9de;
   line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  marging: 0;
+}
+
+main {
+  max-width: inherit;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+img {
+  display: block;
 }
