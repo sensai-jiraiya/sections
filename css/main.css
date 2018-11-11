@@ -34,7 +34,7 @@ img {
 }
 
 main header {
-  color: #000;
+  color: black;
   padding: 0.4em 0.75em 0.5em;
   text-align: left;
   text-overflow: clip;
@@ -54,5 +54,25 @@ main header {
   padding: 0;
   padding-left: 1em;
   list-style-type: none;
+  align-content: center;
+}
+
+.btn li a:hover {
+  background-color: #666;
+  color: white;
+}
+
+.box1 {
+  flex: 0 1 auto;
+  align-content: center;
+  width: auto;
+}
+
+.box2 {
+  flex: 0 1 auto;
+  max-width: 25em;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: 95%;
   align-content: center;
 }
