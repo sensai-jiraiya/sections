@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   background-color: #eee9de;
   line-height: 1.5;
 }
@@ -10,22 +10,23 @@ html {
 }
 
 body {
-  marging: 0;
+  margin: 0;
+  vertical-align: middle;
 }
 
 main {
   max-width: inherit;
-  text-align: center;
+  text-align: left;
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 1em;
+  padding-bottom: 1.125em;
 }
 
 img {
   display: block;
-  vertical-align: middle;
   max-width: 25em;
   width: 100%;
   padding-top: 2em;
@@ -33,26 +34,37 @@ img {
   padding-right: 1em;
 }
 
+h2 {
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+p {
+  font-size: 1em;
+}
 main header {
   color: black;
-  padding: 0.4em 0.75em 0.5em;
+  padding: .4em .75em .5em;
   text-align: left;
   text-overflow: clip;
+
 }
 
 .btn li a {
   display: inline-block;
   color: #333;
-  padding: 1em;
+  padding: .75em 1.125em;
   border: 3px solid #333;
   border-radius: 7px;
   text-decoration: none;
   text-align: center;
+  margin-top: .5em;
 }
 
 .btn {
+  margin: 0;
   padding: 0;
-  padding-left: 1em;
+  padding-left: .75em;
   list-style-type: none;
   align-content: center;
 }
@@ -71,8 +83,8 @@ main header {
 .box2 {
   flex: 0 1 auto;
   max-width: 25em;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  width: 95%;
+  margin-left: .5%;
+  margin-right: .5%;
+  width: 98%;
   align-content: center;
 }
