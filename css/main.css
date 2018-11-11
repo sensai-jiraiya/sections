@@ -25,4 +25,34 @@ main {
 
 img {
   display: block;
+  vertical-align: middle;
+  max-width: 25em;
+  width: 100%;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+main header {
+  color: #000;
+  padding: 0.4em 0.75em 0.5em;
+  text-align: left;
+  text-overflow: clip;
+}
+
+.btn li a {
+  display: inline-block;
+  color: #333;
+  padding: 1em;
+  border: 3px solid #333;
+  border-radius: 7px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn {
+  padding: 0;
+  padding-left: 1em;
+  list-style-type: none;
+  align-content: center;
 }
