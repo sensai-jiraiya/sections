@@ -30,3 +30,10 @@ div {
   vertical-align: middle;
   max-width: 25em;
 }
+
+img {
+  display: block;
+  width: 100%;
+  margin-top: .75em;
+  padding: 2em 1em .2em;
+}
