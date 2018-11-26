@@ -35,7 +35,7 @@ img {
   display: block;
   width: 100%;
   margin-top: .75em;
-  padding: 2em 1em .2em;
+  padding: 2.2em 1em .2em;
 }
 
 .jeez {
@@ -59,7 +59,7 @@ a {
   border: 3px solid #333;
   border-radius: .4em;
   border-width: .2em;
-  padding: .5em .75em;
+  padding: .3em .75em;
 }
 
 a:hover {
